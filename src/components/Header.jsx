@@ -25,6 +25,8 @@ const Header = () => {
                 {item.title}
               </a>
             ))}
+
+            <HamburgerMenu />
           </div>
         </nav>
 
