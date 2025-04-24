@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 
 import { brainwave } from '../assets'
@@ -9,6 +9,7 @@ import { HamburgerMenu } from './design/Header'
 
 const Header = () => {
   const pathname = useLocation()
+  const [openNavigation, setOpenNavigation] = useState(false)
 
   return (
     <div className='fixed top-0 left-0 z-50 bg-n-8/90 backdrop-blur-sm border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm'>
