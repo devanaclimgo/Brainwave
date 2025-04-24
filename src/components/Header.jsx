@@ -40,8 +40,8 @@ const Header = () => {
           Sign in
         </Button>
 
-        <Button className='ml-auto lg:hidden'>
-          <MenuSvg />
+        <Button className='ml-auto lg:hidden' px='px-3'>
+          <MenuSvg openNavigation={openNavigation} />
         </Button>
       </div>
     </div>
