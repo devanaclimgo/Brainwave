@@ -12,7 +12,7 @@ const Section =
           }`
         }`}
       >
-        Section
+        {children}
       </div>
     );
   };
