@@ -53,6 +53,10 @@ const Hero = () => {
                 height={490}
                 alt='AI' 
               />
+
+              <ScrollParallax isAbsolutelyPositioned>
+                <ul className='hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex'></ul>
+              </ScrollParallax>
             </div>
           </div>
         </div>
