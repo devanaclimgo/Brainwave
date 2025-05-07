@@ -78,6 +78,8 @@ const Hero = () => {
             alt='hero' 
           />
         </div>
+
+        <BackgroundCircles />
       </div>
     </div>
   </Section>
