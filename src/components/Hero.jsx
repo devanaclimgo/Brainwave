@@ -5,6 +5,7 @@ import Button from './Button'
 import { BackgroundCircles, BottomLine, Gradient } from './design/Hero'
 import { heroIcons } from '../constants'
 import { ScrollParallax } from 'react-just-parallax'
+import { Generating } from './Generating'
 
 const Hero = () => {
   const parallexRef = useRef(null)
@@ -53,6 +54,8 @@ const Hero = () => {
                 height={490}
                 alt='AI' 
               />
+
+              <Generating />
 
               <ScrollParallax isAbsolutelyPositioned>
                 <ul className='hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex'>
