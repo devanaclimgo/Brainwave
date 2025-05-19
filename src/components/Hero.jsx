@@ -6,6 +6,7 @@ import { BackgroundCircles, BottomLine, Gradient } from './design/Hero'
 import { heroIcons } from '../constants'
 import { ScrollParallax } from 'react-just-parallax'
 import Generating from './Generating'
+import Notification from './Notification'
 
 const Hero = () => {
   const parallexRef = useRef(null)
@@ -66,6 +67,13 @@ const Hero = () => {
                     </li>
                   ))}
                 </ul>
+              </ScrollParallax>
+
+              <ScrollParallax isAbsolutelyPositioned>
+                <Notification
+                  className='hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex'
+                  title='Code generation'
+                />
               </ScrollParallax>
             </div>
           </div>
