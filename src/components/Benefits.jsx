@@ -4,6 +4,7 @@ import { benefits } from '../constants'
 import Heading from './Heading'
 import Arrow from '../assets/svg/Arrow'
 import ClipPath from '../assets/svg/ClipPath'
+import { GradientLight } from './design/Benefits'
 
 const Benefits = () => {
   return (
