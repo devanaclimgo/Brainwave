@@ -1,8 +1,13 @@
 import React from 'react'
+import Section from './Section'
 
 const Benefits = () => {
   return (
-    <div>Benefits</div>
+    <Section id='features'>
+      <div className='container relative z-2'>
+        
+      </div>
+    </Section>
   )
 }
 
