@@ -3,6 +3,7 @@ import Section from './Section'
 import { benefits } from '../constants'
 import Heading from './Heading'
 import Arrow from '../assets/svg/Arrow'
+import ClipPath from '../assets/svg/ClipPath'
 
 const Benefits = () => {
   return (
