@@ -1,6 +1,7 @@
 import React from 'react'
 import Section from './Section'
 import { benefits } from '../constants'
+import Heading from './Heading'
 
 const Benefits = () => {
   return (
