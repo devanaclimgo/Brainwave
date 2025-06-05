@@ -1,6 +1,7 @@
 # Brainwave - Modern UI/UX Showcase ✨  
 
-![Brainwave Screenshot] *image*
+![BrainwaveScreenshot](https://github.com/user-attachments/assets/d6122f7c-71c9-4ef1-afa4-3efea1e93991)
+ 
 *A sleek, animation-rich UI/UX masterpiece built with React and Tailwind CSS (2025)*  
 
 **Live Demo:** [🔗 Deploy Link](https://vercel.com/ana-gomes-projects-1d15a4b0/brainwave/Z7iJzNEJqiQtnTg1oCqjNmKxWi3C) | **Repo:** [GitHub](https://github.com/devanaclimgo/Brainwave)  
